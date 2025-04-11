@@ -40,23 +40,6 @@ aplicadas à pesquisa em Administração. Isso inclui:
   - **03_relatorio/**: Relatório executivo em formato DOCX
 
 
-## Aplicações na Pesquisa
-
-Este projeto serve como base metodológica para a aplicação de técnicas 
-de ciência de dados tanto nas linhas de pesquisa específicas do Mestrado 
-em Finanças quanto em outros contextos de análise de dados em Administração.
-
-### Aplicações em Outros Contextos de Administração
-
-As técnicas e metodologias aprendidas também podem ser aplicadas em:
-
-- Análises de marketing e comportamento do consumidor
-- Estudos de gestão de operações e processos
-- Análises de recursos humanos e comportamento organizacional
-- Pesquisas em sustentabilidade e responsabilidade social
-- Estudos em estratégia e inovação empresarial
-
-
 ## Princípios Metodológicos
 
 - **Reprodutibilidade:** Todo o processo analítico deve ser documentado 
@@ -97,16 +80,11 @@ Este glossário apresenta uma **versão inicial** dos termos relacionados
 Introdução à Ciência de Dados, com ênfase em sua aplicação na pesquisa 
 acadêmica.
 
-> **IMPORTANTE**: Este é apenas um ponto de partida. Você deve assumir o 
-protagonismo na ampliação e manutenção deste glossário, adicionando novos 
-termos e conceitos à medida que avança no seu aprendizado. Anote definições 
-de conceitos que encontrar durante as aulas e leituras, reescreva explicações 
-com suas próprias palavras e personalize este recurso para que ele realmente 
-apoie seu desenvolvimento na disciplina e em sua pesquisa de dissertação.
 
 O glossário que você construir será uma ferramenta valiosa não apenas 
 durante a disciplina e no desenvolvimento de seu projeto de dissertação, 
-mas também em seus futuros estudos e atividades profissionais. Consulte-o e, principalmente, enriqueça-o sempre que encontrar termos ou conceitos 
+mas também em seus futuros estudos e atividades profissionais. Consulte-o e, 
+principalmente, enriqueça-o sempre que encontrar termos ou conceitos 
 importantes. 
 
 
