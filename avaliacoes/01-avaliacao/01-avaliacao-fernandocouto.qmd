@@ -13,7 +13,7 @@ lang: "pt"
 date: 2025-05-29
 date-format: long
 execute: 
-  eval: false
+  eval: true
   echo: true
   warning: false
   message: false
@@ -98,10 +98,6 @@ caminho <- here::here("data/raw/dados_franco2022.csv")
 ## 1.2 Importa o arquivo com a função read_csv
 dados_franco_2022 <- readr::read_csv(caminho)
 
-##Para mostrar a estrutura do dados 
-glimpse(dados_franco)
-
-  
 ```
 
 
@@ -111,7 +107,7 @@ glimpse(dados_franco)
 ```{r}
 
 # Aplicar o pipeline para renomear as colunas
-dados_franco <- meus_dados %>%
+dados_franco_limpos <- dados_franco_2022 %>%
   rename(mes = data,
     indice_epu = EPU,
     indice_iem = IEM,
@@ -196,7 +192,7 @@ instituicao, ano e patrimonio_referencia
 # Pipeline para combinar aus_banks e aus_bank_funds
 dados_combinados <- aus_bank_funds %>%
   # join para manter todas as observações de aus_bank_funds
-  left_join(aus_banks, by = gvkey)%>%
+  left_join(aus_banks, by = "gvkey")%>%
   # Remove observações com valores ausentes
   drop_na() %>%
   # Seleciona apenas as variáveis solicitadas
